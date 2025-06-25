@@ -90,5 +90,5 @@ def daily_github_contributor():
     print("腳本執行完畢。請檢查你的 GitHub 貢獻圖。")
     os.chdir(original_cwd) # 返回原始目錄
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     daily_github_contributor()
